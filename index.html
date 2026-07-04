@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Latifa Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">Latifa</a>
+      <button class="nav-toggle" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Welcome to my portfolio</p>
+          <h1>Hi, I’m Latifa.</h1>
+          <p class="hero-text">I build clean, responsive websites and engaging user experiences using HTML, CSS, and JavaScript.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <p>Front-end developer with a passion for modern design and accessibility.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-light">
+      <div class="container section-grid">
+        <div>
+          <h2>About Me</h2>
+          <p>I am a web developer who loves turning ideas into polished digital products. My focus is building responsive sites that feel fast, accessible, and intuitive.</p>
+          <p>Whether it’s a personal portfolio, a small business landing page, or a web app interface, I enjoy crafting every detail from layout to interaction.</p>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <h3>5+</h3>
+            <p>Projects completed</p>
+          </div>
+          <div class="stat-card">
+            <h3>HTML</h3>
+            <p>Semantic markup</p>
+          </div>
+          <div class="stat-card">
+            <h3>CSS</h3>
+            <p>Responsive design</p>
+          </div>
+          <div class="stat-card">
+            <h3>JavaScript</h3>
+            <p>Interactive UI</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-dark">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="section-intro">A sample of recent work that demonstrates clean interfaces and responsive design.</p>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Portfolio Landing Page</h3>
+            <p>Responsive personal site built with modern layout, animations, and smooth scrolling.</p>
+            <div class="project-tech">HTML · CSS · JavaScript</div>
+          </article>
+          <article class="project-card">
+            <h3>Interactive UI Prototype</h3>
+            <p>Designed an interactive product showcase using CSS transitions and reusable components.</p>
+            <div class="project-tech">CSS · JS</div>
+          </article>
+          <article class="project-card">
+            <h3>Contact Section Demo</h3>
+            <p>Built a friendly contact form experience with focus states and mobile-friendly spacing.</p>
+            <div class="project-tech">HTML · CSS</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-light contact-section">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact</h2>
+          <p>Ready to work together? Send a message and I’ll respond as soon as possible.</p>
+          <div class="contact-details">
+            <p><strong>Email:</strong> hello@example.com</p>
+            <p><strong>Location:</strong> Remote / Available Worldwide</p>
+          </div>
+        </div>
+        <form class="contact-form" action="#" onsubmit="return false;">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your name" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="you@example.com" required />
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Tell me about your project" required></textarea>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Latifa. Built with HTML, CSS & JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
